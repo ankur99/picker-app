@@ -1,0 +1,193 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Roboto-Black.ttf",
+      "sha1": "14701060227dbc4a4ec9901970e8a58bb136efd9"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-BlackItalic.ttf",
+      "sha1": "3009f8bc7f3aa84fd483469422442cc3789e0579"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Bold.ttf",
+      "sha1": "6cbb57ba2355cf442e06899898ff5af55867103e"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-BoldItalic.ttf",
+      "sha1": "cd6a28033099099036e2a2182c9c4475394deaad"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Italic.ttf",
+      "sha1": "4c4faf7a3fae4d0b1474561f0080995d358861ac"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Light.ttf",
+      "sha1": "191dda7a5142990cd980727d43b27e4802f0b321"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-LightItalic.ttf",
+      "sha1": "693445f41eaa750b789a77568f9d6d995e85e0b2"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Medium.ttf",
+      "sha1": "adbc3bde424bcf7dbc38f148005c8319825891f2"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-MediumItalic.ttf",
+      "sha1": "75feb92a7fc61d00e8ca610a700344738ef5ae32"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "1d1d41fcadc571decb6444211b7993b99ce926e2"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Thin.ttf",
+      "sha1": "f71ccd563f95ccc187cf4fe81287445e91f7121b"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-ThinItalic.ttf",
+      "sha1": "e3fb2b2a0dc2daf84d79cfff4b345a2afac132bc"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-Bold.ttf",
+      "sha1": "c348d9f1b95e103ac2d14d56682867368f385b1a"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-BoldItalic.ttf",
+      "sha1": "3bd9f2b8c65c4dd80f535b9ddd937784e0d71ce6"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-Italic.ttf",
+      "sha1": "394439fa97f36bba80f061e32e46ead1650e798e"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-Light.ttf",
+      "sha1": "df222c27b5e41dc89ca76a4479c9dd3ae6c1acbc"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-LightItalic.ttf",
+      "sha1": "d974583f3217141e4fc04bf94c3c6f94d9f56f8f"
+    },
+    {
+      "path": "src/assets/fonts/RobotoCondensed-Regular.ttf",
+      "sha1": "c722696501a8663d64208d754e4db8165d3936f6"
+    },
+    {
+      "path": "src/assets/icons/back_arrow.png",
+      "sha1": "7baf06ea7c6a0b7826238b64bd158e9e2bcebd0e"
+    },
+    {
+      "path": "src/assets/icons/barcode.png",
+      "sha1": "b23eec672361f6d4ddaac280909772d52033ec62"
+    },
+    {
+      "path": "src/assets/icons/check-circle.png",
+      "sha1": "32085c77b7fb5e2b67ba1f32bfc94561ad4926d4"
+    },
+    {
+      "path": "src/assets/icons/coin.png",
+      "sha1": "b7add1e080e2ea18d460e3c3a1e37f885901465a"
+    },
+    {
+      "path": "src/assets/icons/error.png",
+      "sha1": "80f33724edc07e79f3ec8bf77600faa9dc22a04b"
+    },
+    {
+      "path": "src/assets/icons/home.png",
+      "sha1": "75f762e2f7bc8ff3b3cf5ea871cc3989ec1a5433"
+    },
+    {
+      "path": "src/assets/icons/home_outlined.png",
+      "sha1": "4384198269ee32d78e5a64055b384f874a07baf1"
+    },
+    {
+      "path": "src/assets/icons/inventory.png",
+      "sha1": "c6496c3b2d3d4acce07ab4c10dbd6bcd3893e9d0"
+    },
+    {
+      "path": "src/assets/icons/line_graph.png",
+      "sha1": "9e6664da77870328a4cb9988cce8c766f92d9157"
+    },
+    {
+      "path": "src/assets/icons/more.png",
+      "sha1": "8334ab78a39eda285b0ab4a720f4257c2b7a8710"
+    },
+    {
+      "path": "src/assets/icons/notification_color.png",
+      "sha1": "b634d94184ed2de314e2b3de1ee5490f01e373cd"
+    },
+    {
+      "path": "src/assets/icons/notification_white.png",
+      "sha1": "f83bfa558953dfc4589995261046768cf39946c0"
+    },
+    {
+      "path": "src/assets/icons/orders.png",
+      "sha1": "03d71d32f5dedbfa07f71a2e4874e8f42a18231c"
+    },
+    {
+      "path": "src/assets/icons/person.png",
+      "sha1": "d05551dd8c38fa103a8d0d0e4ba1b040b052fca3"
+    },
+    {
+      "path": "src/assets/icons/pie_chart.png",
+      "sha1": "be9804eccc21018f0b3a1cdaa8c6d3cec935ef7a"
+    },
+    {
+      "path": "src/assets/icons/plus.png",
+      "sha1": "f181a482d678e1956deda31ad864397ad69a9f06"
+    },
+    {
+      "path": "src/assets/icons/red-cross.png",
+      "sha1": "6840d8f87a50662ee2bb0ff57c48cf0fc4e61901"
+    },
+    {
+      "path": "src/assets/icons/right_arrow.png",
+      "sha1": "4db700ba82b6848821af550ef577f2f07ce68339"
+    },
+    {
+      "path": "src/assets/icons/settings.png",
+      "sha1": "fb78f89885b83cef6609b82d7c2306cbeb365a34"
+    },
+    {
+      "path": "src/assets/icons/star.png",
+      "sha1": "292021349ac5e8e71bc4a82e03727f9324270903"
+    },
+    {
+      "path": "src/assets/icons/transaction.png",
+      "sha1": "2365e568fde71fdcb10c98a513a3f7c188217cb2"
+    },
+    {
+      "path": "src/assets/images/arrow.png",
+      "sha1": "311c9f9d8fd296ba9d38ad31dfea5c9f84e26069"
+    },
+    {
+      "path": "src/assets/images/loading.gif",
+      "sha1": "6801e8e1788b01bdf7517de639b043b40cae6ffa"
+    },
+    {
+      "path": "src/assets/images/mobile-device.png",
+      "sha1": "e654069676236cc1d4750c2d5b784f61111f3cf1"
+    },
+    {
+      "path": "src/assets/images/mobile.png",
+      "sha1": "bb44b5849cc3986d44cd6cdca4e0ad03330374c9"
+    },
+    {
+      "path": "src/assets/images/otp.png",
+      "sha1": "ebc40f1b800e847429aa613e54aea706dd0d1bb4"
+    },
+    {
+      "path": "src/assets/images/pickerapp.png",
+      "sha1": "39b4d6d25db41dd7077d6150c9c15ceb136aa38d"
+    },
+    {
+      "path": "src/assets/images/scanner-device.png",
+      "sha1": "141451ca6025591b71051a95e945ad4f225dc253"
+    },
+    {
+      "path": "src/assets/images/signup-bg.png",
+      "sha1": "87dbd4fb110320c5e58fbb27f038af52e535734f"
+    }
+  ]
+}

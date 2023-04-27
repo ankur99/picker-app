@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		96905EF65AED1B983A6B3ABC /* libPods-pickerapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-pickerapp.a */; };
+		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		466561874E9143FF84513290 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1839B1D98C7B44B9BD64E579 /* Roboto-Black.ttf */; };
+		DBEA2764F1BB4F7CA5DA981F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D289A16EAD6549239D2CEDB5 /* Roboto-BlackItalic.ttf */; };
+		0727AAA33C4C4EBC871B48FE /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABB759527F1F415DBEFF5E4B /* Roboto-Bold.ttf */; };
+		27F81F5C0E6B4BE28CFFF3D1 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8C2A0FB510A4CD7A06708C0 /* Roboto-BoldItalic.ttf */; };
+		C3E8549E83574467B94660BA /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D147E93A19AE4572BE6DD315 /* Roboto-Italic.ttf */; };
+		F340F26538BC472495939A41 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 307A0038C0874D54A50EC157 /* Roboto-Light.ttf */; };
+		57AE2B50D5C04AA58347DA6C /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B089D840EF64A7FAFCF1E0E /* Roboto-LightItalic.ttf */; };
+		A5806593AF204BA78C1E6FD0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D16A5CE8BFB44268ADDE87E8 /* Roboto-Medium.ttf */; };
+		3376D2C3AE664B7F98C302DA /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 366ECE3F50F6494F82F02978 /* Roboto-MediumItalic.ttf */; };
+		D685DB3164E14EDB9BD960F9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4213AEED3E0542CC83B6715A /* Roboto-Regular.ttf */; };
+		6335B331A25349C289D8FF3E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 678E7D74509549B99B14B6CD /* Roboto-Thin.ttf */; };
+		717BB781EE684369B8DE3A01 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 467DEC1BFE794205971EFADF /* Roboto-ThinItalic.ttf */; };
+		03BE3EDC7E124F08829E7DD6 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD291727E594393859CCEF8 /* RobotoCondensed-Bold.ttf */; };
+		B5317C6FF1FB4EE3A527854B /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EE0698B9BE34781812D59FB /* RobotoCondensed-BoldItalic.ttf */; };
+		2465EB3C1F4C439A9FE4D886 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 753FE896D6074163A8A43366 /* RobotoCondensed-Italic.ttf */; };
+		7DD5A7DC8FF7458AA44F0A97 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6403F86361D43F2A4EC364C /* RobotoCondensed-Light.ttf */; };
+		F2CCA321558247549200CA51 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F4E83B46B942668F6FC28B /* RobotoCondensed-LightItalic.ttf */; };
+		0C72AFAEF7584565B0B26177 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B88A86BDCD64492683D47823 /* RobotoCondensed-Regular.ttf */; };
+		496FF026507248E98501FB3E /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAD7B3DDC454AA7AC5B07A9 /* back_arrow.png */; };
+		B78700921943467D9EABE78D /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3151284604C36A6E29BC8 /* barcode.png */; };
+		16F8B4A99F16427D940C7F27 /* check-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB5716C6D254F0EBAD707E9 /* check-circle.png */; };
+		1EA312D1D71644E5A169DF7F /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FE7BF1C2E74A3E978BD7D2 /* coin.png */; };
+		8D16F047FD004FC4A0A05B4F /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C11925DE4B849C1AFB702D8 /* error.png */; };
+		F491B8DE6815414D8937F963 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B07F26F72744511B174345D /* home.png */; };
+		E476E1E4A2054C8393CF66AF /* home_outlined.png in Resources */ = {isa = PBXBuildFile; fileRef = 5806AA3478F74734818C3954 /* home_outlined.png */; };
+		00FD83D1509D4FCAAEBB9167 /* inventory.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0D9CC8ADFB4C6297DA3973 /* inventory.png */; };
+		DD491983A8A34DBC85102876 /* line_graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A415C7FF3F854958BC8D9907 /* line_graph.png */; };
+		6A4CABB0056D4ADC8E73DAD3 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B99D0E5F24D412EBE30E5FF /* more.png */; };
+		444773D78BFE40F8BA50BAA8 /* notification_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC6B896BB140F98BAF0CA1 /* notification_color.png */; };
+		1802894C78784C08B3C95C03 /* notification_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F6897EF6C1F64DC5B842EFC4 /* notification_white.png */; };
+		D4E011011FF94CF4B37018A5 /* orders.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F82C54A6B843CEADBBF1DE /* orders.png */; };
+		277A364E146246639749956F /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 76183DB9CD904AE4B845C2FE /* person.png */; };
+		C7197975B8D54AF8B4E3C2B4 /* pie_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = E198C81405544F49ABC51D51 /* pie_chart.png */; };
+		702AE2E6F0C5426C9A89A8CE /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7F456528B54B4A880808A2 /* plus.png */; };
+		E5BE6E5E293540CEA1B8FF21 /* red-cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC2D8375581485099CC8EAE /* red-cross.png */; };
+		DADEA4479EC647CC864DFF02 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF684C632BE4E7795CC05F1 /* right_arrow.png */; };
+		7D3C444BA32546B1A276B51C /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FA3B0B166A4C7F918641F3 /* settings.png */; };
+		5AD6578068AD4687A13CC92E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 26026E8AB59A413D8E9DE06E /* star.png */; };
+		4F1B8D0641DA414F9A14B956 /* transaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 06924A06D0904EBCA0CEDBEE /* transaction.png */; };
+		5A8376F464964A77A374DE12 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EBDD32956444994446CBD /* arrow.png */; };
+		5C401A0FF3564D83954481B6 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = D543797064BF4C79BC40489C /* loading.gif */; };
+		68C8B2AEE6824F6D81D772E5 /* mobile-device.png in Resources */ = {isa = PBXBuildFile; fileRef = E196F1558E3E4EA9BFC01DAA /* mobile-device.png */; };
+		ED2E7674CF4248FA85AA32ED /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8644DDC7724742D1BB313DFD /* mobile.png */; };
+		BAE3E6D3464E4BA98FF6B0CE /* otp.png in Resources */ = {isa = PBXBuildFile; fileRef = B8766BA0EE5C49FE8DA1CB0C /* otp.png */; };
+		23D575BB6638444A91BC15B9 /* pickerapp.png in Resources */ = {isa = PBXBuildFile; fileRef = BC430EC7C44A41D7BE838EF4 /* pickerapp.png */; };
+		806766EDD0704C438978E664 /* scanner-device.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3DE3D8395C49A48E696837 /* scanner-device.png */; };
+		F142A5EFB04F493EA4501DF2 /* signup-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 625CBEA0BDC74071B2C1F48A /* signup-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* pickerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = pickerapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = pickerapp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pickerapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pickerapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pickerapp/main.m; sourceTree = "<group>"; };
+		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-pickerapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pickerapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2E3173556A471DD304B334 /* Pods-pickerapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pickerapp.debug.xcconfig"; path = "Target Support Files/Pods-pickerapp/Pods-pickerapp.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-pickerapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pickerapp.release.xcconfig"; path = "Target Support Files/Pods-pickerapp/Pods-pickerapp.release.xcconfig"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = pickerapp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-pickerapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		1839B1D98C7B44B9BD64E579 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D289A16EAD6549239D2CEDB5 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABB759527F1F415DBEFF5E4B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8C2A0FB510A4CD7A06708C0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D147E93A19AE4572BE6DD315 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		307A0038C0874D54A50EC157 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B089D840EF64A7FAFCF1E0E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D16A5CE8BFB44268ADDE87E8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		366ECE3F50F6494F82F02978 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4213AEED3E0542CC83B6715A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		678E7D74509549B99B14B6CD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		467DEC1BFE794205971EFADF /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FD291727E594393859CCEF8 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Bold.ttf"; path = "../src/assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EE0698B9BE34781812D59FB /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-BoldItalic.ttf"; path = "../src/assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		753FE896D6074163A8A43366 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Italic.ttf"; path = "../src/assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6403F86361D43F2A4EC364C /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Light.ttf"; path = "../src/assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8F4E83B46B942668F6FC28B /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-LightItalic.ttf"; path = "../src/assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B88A86BDCD64492683D47823 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Regular.ttf"; path = "../src/assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFAD7B3DDC454AA7AC5B07A9 /* back_arrow.png */ = {isa = PBXFileReference; name = "back_arrow.png"; path = "../src/assets/icons/back_arrow.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DE3151284604C36A6E29BC8 /* barcode.png */ = {isa = PBXFileReference; name = "barcode.png"; path = "../src/assets/icons/barcode.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DB5716C6D254F0EBAD707E9 /* check-circle.png */ = {isa = PBXFileReference; name = "check-circle.png"; path = "../src/assets/icons/check-circle.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8FE7BF1C2E74A3E978BD7D2 /* coin.png */ = {isa = PBXFileReference; name = "coin.png"; path = "../src/assets/icons/coin.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C11925DE4B849C1AFB702D8 /* error.png */ = {isa = PBXFileReference; name = "error.png"; path = "../src/assets/icons/error.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B07F26F72744511B174345D /* home.png */ = {isa = PBXFileReference; name = "home.png"; path = "../src/assets/icons/home.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5806AA3478F74734818C3954 /* home_outlined.png */ = {isa = PBXFileReference; name = "home_outlined.png"; path = "../src/assets/icons/home_outlined.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B0D9CC8ADFB4C6297DA3973 /* inventory.png */ = {isa = PBXFileReference; name = "inventory.png"; path = "../src/assets/icons/inventory.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A415C7FF3F854958BC8D9907 /* line_graph.png */ = {isa = PBXFileReference; name = "line_graph.png"; path = "../src/assets/icons/line_graph.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B99D0E5F24D412EBE30E5FF /* more.png */ = {isa = PBXFileReference; name = "more.png"; path = "../src/assets/icons/more.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92CC6B896BB140F98BAF0CA1 /* notification_color.png */ = {isa = PBXFileReference; name = "notification_color.png"; path = "../src/assets/icons/notification_color.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6897EF6C1F64DC5B842EFC4 /* notification_white.png */ = {isa = PBXFileReference; name = "notification_white.png"; path = "../src/assets/icons/notification_white.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60F82C54A6B843CEADBBF1DE /* orders.png */ = {isa = PBXFileReference; name = "orders.png"; path = "../src/assets/icons/orders.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76183DB9CD904AE4B845C2FE /* person.png */ = {isa = PBXFileReference; name = "person.png"; path = "../src/assets/icons/person.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E198C81405544F49ABC51D51 /* pie_chart.png */ = {isa = PBXFileReference; name = "pie_chart.png"; path = "../src/assets/icons/pie_chart.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A7F456528B54B4A880808A2 /* plus.png */ = {isa = PBXFileReference; name = "plus.png"; path = "../src/assets/icons/plus.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCC2D8375581485099CC8EAE /* red-cross.png */ = {isa = PBXFileReference; name = "red-cross.png"; path = "../src/assets/icons/red-cross.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DF684C632BE4E7795CC05F1 /* right_arrow.png */ = {isa = PBXFileReference; name = "right_arrow.png"; path = "../src/assets/icons/right_arrow.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10FA3B0B166A4C7F918641F3 /* settings.png */ = {isa = PBXFileReference; name = "settings.png"; path = "../src/assets/icons/settings.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26026E8AB59A413D8E9DE06E /* star.png */ = {isa = PBXFileReference; name = "star.png"; path = "../src/assets/icons/star.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06924A06D0904EBCA0CEDBEE /* transaction.png */ = {isa = PBXFileReference; name = "transaction.png"; path = "../src/assets/icons/transaction.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C6EBDD32956444994446CBD /* arrow.png */ = {isa = PBXFileReference; name = "arrow.png"; path = "../src/assets/images/arrow.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D543797064BF4C79BC40489C /* loading.gif */ = {isa = PBXFileReference; name = "loading.gif"; path = "../src/assets/images/loading.gif"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E196F1558E3E4EA9BFC01DAA /* mobile-device.png */ = {isa = PBXFileReference; name = "mobile-device.png"; path = "../src/assets/images/mobile-device.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8644DDC7724742D1BB313DFD /* mobile.png */ = {isa = PBXFileReference; name = "mobile.png"; path = "../src/assets/images/mobile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8766BA0EE5C49FE8DA1CB0C /* otp.png */ = {isa = PBXFileReference; name = "otp.png"; path = "../src/assets/images/otp.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC430EC7C44A41D7BE838EF4 /* pickerapp.png */ = {isa = PBXFileReference; name = "pickerapp.png"; path = "../src/assets/images/pickerapp.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F3DE3D8395C49A48E696837 /* scanner-device.png */ = {isa = PBXFileReference; name = "scanner-device.png"; path = "../src/assets/images/scanner-device.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		625CBEA0BDC74071B2C1F48A /* signup-bg.png */ = {isa = PBXFileReference; name = "signup-bg.png"; path = "../src/assets/images/signup-bg.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96905EF65AED1B983A6B3ABC /* libPods-pickerapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* pickerapp */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792B24A3F905000567C9 /* Supporting */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+			);
+			name = pickerapp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-pickerapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* pickerapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D65327D7A22EEC0BE12398D9 /* Pods */,
+				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				53AB3665BDBA4710AD310350 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* pickerapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DBD88DE9BF7D494EA9DA96 /* pickerapp */ = {
+			isa = PBXGroup;
+			children = (
+				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
+			);
+			name = pickerapp;
+			sourceTree = "<group>";
+		};
+		BB2F792B24A3F905000567C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792C24A3F905000567C9 /* Expo.plist */,
+			);
+			name = Supporting;
+			path = pickerapp/Supporting;
+			sourceTree = "<group>";
+		};
+		D65327D7A22EEC0BE12398D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E3173556A471DD304B334 /* Pods-pickerapp.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-pickerapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				92DBD88DE9BF7D494EA9DA96 /* pickerapp */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		53AB3665BDBA4710AD310350 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1839B1D98C7B44B9BD64E579 /* Roboto-Black.ttf */,
+				D289A16EAD6549239D2CEDB5 /* Roboto-BlackItalic.ttf */,
+				ABB759527F1F415DBEFF5E4B /* Roboto-Bold.ttf */,
+				E8C2A0FB510A4CD7A06708C0 /* Roboto-BoldItalic.ttf */,
+				D147E93A19AE4572BE6DD315 /* Roboto-Italic.ttf */,
+				307A0038C0874D54A50EC157 /* Roboto-Light.ttf */,
+				3B089D840EF64A7FAFCF1E0E /* Roboto-LightItalic.ttf */,
+				D16A5CE8BFB44268ADDE87E8 /* Roboto-Medium.ttf */,
+				366ECE3F50F6494F82F02978 /* Roboto-MediumItalic.ttf */,
+				4213AEED3E0542CC83B6715A /* Roboto-Regular.ttf */,
+				678E7D74509549B99B14B6CD /* Roboto-Thin.ttf */,
+				467DEC1BFE794205971EFADF /* Roboto-ThinItalic.ttf */,
+				5FD291727E594393859CCEF8 /* RobotoCondensed-Bold.ttf */,
+				3EE0698B9BE34781812D59FB /* RobotoCondensed-BoldItalic.ttf */,
+				753FE896D6074163A8A43366 /* RobotoCondensed-Italic.ttf */,
+				D6403F86361D43F2A4EC364C /* RobotoCondensed-Light.ttf */,
+				F8F4E83B46B942668F6FC28B /* RobotoCondensed-LightItalic.ttf */,
+				B88A86BDCD64492683D47823 /* RobotoCondensed-Regular.ttf */,
+				CFAD7B3DDC454AA7AC5B07A9 /* back_arrow.png */,
+				6DE3151284604C36A6E29BC8 /* barcode.png */,
+				0DB5716C6D254F0EBAD707E9 /* check-circle.png */,
+				F8FE7BF1C2E74A3E978BD7D2 /* coin.png */,
+				0C11925DE4B849C1AFB702D8 /* error.png */,
+				0B07F26F72744511B174345D /* home.png */,
+				5806AA3478F74734818C3954 /* home_outlined.png */,
+				5B0D9CC8ADFB4C6297DA3973 /* inventory.png */,
+				A415C7FF3F854958BC8D9907 /* line_graph.png */,
+				6B99D0E5F24D412EBE30E5FF /* more.png */,
+				92CC6B896BB140F98BAF0CA1 /* notification_color.png */,
+				F6897EF6C1F64DC5B842EFC4 /* notification_white.png */,
+				60F82C54A6B843CEADBBF1DE /* orders.png */,
+				76183DB9CD904AE4B845C2FE /* person.png */,
+				E198C81405544F49ABC51D51 /* pie_chart.png */,
+				9A7F456528B54B4A880808A2 /* plus.png */,
+				BCC2D8375581485099CC8EAE /* red-cross.png */,
+				2DF684C632BE4E7795CC05F1 /* right_arrow.png */,
+				10FA3B0B166A4C7F918641F3 /* settings.png */,
+				26026E8AB59A413D8E9DE06E /* star.png */,
+				06924A06D0904EBCA0CEDBEE /* transaction.png */,
+				5C6EBDD32956444994446CBD /* arrow.png */,
+				D543797064BF4C79BC40489C /* loading.gif */,
+				E196F1558E3E4EA9BFC01DAA /* mobile-device.png */,
+				8644DDC7724742D1BB313DFD /* mobile.png */,
+				B8766BA0EE5C49FE8DA1CB0C /* otp.png */,
+				BC430EC7C44A41D7BE838EF4 /* pickerapp.png */,
+				8F3DE3D8395C49A48E696837 /* scanner-device.png */,
+				625CBEA0BDC74071B2C1F48A /* signup-bg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* pickerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pickerapp" */;
+			buildPhases = (
+				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickerapp;
+			productName = pickerapp;
+			productReference = 13B07F961A680F5B00A75B9A /* pickerapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pickerapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* pickerapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				466561874E9143FF84513290 /* Roboto-Black.ttf in Resources */,
+				DBEA2764F1BB4F7CA5DA981F /* Roboto-BlackItalic.ttf in Resources */,
+				0727AAA33C4C4EBC871B48FE /* Roboto-Bold.ttf in Resources */,
+				27F81F5C0E6B4BE28CFFF3D1 /* Roboto-BoldItalic.ttf in Resources */,
+				C3E8549E83574467B94660BA /* Roboto-Italic.ttf in Resources */,
+				F340F26538BC472495939A41 /* Roboto-Light.ttf in Resources */,
+				57AE2B50D5C04AA58347DA6C /* Roboto-LightItalic.ttf in Resources */,
+				A5806593AF204BA78C1E6FD0 /* Roboto-Medium.ttf in Resources */,
+				3376D2C3AE664B7F98C302DA /* Roboto-MediumItalic.ttf in Resources */,
+				D685DB3164E14EDB9BD960F9 /* Roboto-Regular.ttf in Resources */,
+				6335B331A25349C289D8FF3E /* Roboto-Thin.ttf in Resources */,
+				717BB781EE684369B8DE3A01 /* Roboto-ThinItalic.ttf in Resources */,
+				03BE3EDC7E124F08829E7DD6 /* RobotoCondensed-Bold.ttf in Resources */,
+				B5317C6FF1FB4EE3A527854B /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				2465EB3C1F4C439A9FE4D886 /* RobotoCondensed-Italic.ttf in Resources */,
+				7DD5A7DC8FF7458AA44F0A97 /* RobotoCondensed-Light.ttf in Resources */,
+				F2CCA321558247549200CA51 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				0C72AFAEF7584565B0B26177 /* RobotoCondensed-Regular.ttf in Resources */,
+				496FF026507248E98501FB3E /* back_arrow.png in Resources */,
+				B78700921943467D9EABE78D /* barcode.png in Resources */,
+				16F8B4A99F16427D940C7F27 /* check-circle.png in Resources */,
+				1EA312D1D71644E5A169DF7F /* coin.png in Resources */,
+				8D16F047FD004FC4A0A05B4F /* error.png in Resources */,
+				F491B8DE6815414D8937F963 /* home.png in Resources */,
+				E476E1E4A2054C8393CF66AF /* home_outlined.png in Resources */,
+				00FD83D1509D4FCAAEBB9167 /* inventory.png in Resources */,
+				DD491983A8A34DBC85102876 /* line_graph.png in Resources */,
+				6A4CABB0056D4ADC8E73DAD3 /* more.png in Resources */,
+				444773D78BFE40F8BA50BAA8 /* notification_color.png in Resources */,
+				1802894C78784C08B3C95C03 /* notification_white.png in Resources */,
+				D4E011011FF94CF4B37018A5 /* orders.png in Resources */,
+				277A364E146246639749956F /* person.png in Resources */,
+				C7197975B8D54AF8B4E3C2B4 /* pie_chart.png in Resources */,
+				702AE2E6F0C5426C9A89A8CE /* plus.png in Resources */,
+				E5BE6E5E293540CEA1B8FF21 /* red-cross.png in Resources */,
+				DADEA4479EC647CC864DFF02 /* right_arrow.png in Resources */,
+				7D3C444BA32546B1A276B51C /* settings.png in Resources */,
+				5AD6578068AD4687A13CC92E /* star.png in Resources */,
+				4F1B8D0641DA414F9A14B956 /* transaction.png in Resources */,
+				5A8376F464964A77A374DE12 /* arrow.png in Resources */,
+				5C401A0FF3564D83954481B6 /* loading.gif in Resources */,
+				68C8B2AEE6824F6D81D772E5 /* mobile-device.png in Resources */,
+				ED2E7674CF4248FA85AA32ED /* mobile.png in Resources */,
+				BAE3E6D3464E4BA98FF6B0CE /* otp.png in Resources */,
+				23D575BB6638444A91BC15B9 /* pickerapp.png in Resources */,
+				806766EDD0704C438978E664 /* scanner-device.png in Resources */,
+				F142A5EFB04F493EA4501DF2 /* signup-bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
+		};
+		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pickerapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pickerapp/Pods-pickerapp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pickerapp/Pods-pickerapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\nexport RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > `$NODE_BINARY --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/.packager.env'\"`\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open `$NODE_BINARY --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/launchPackager.command'\"` || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-pickerapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = pickerapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.pickerapp;
+				PRODUCT_NAME = pickerapp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-pickerapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = pickerapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.pickerapp;
+				PRODUCT_NAME = pickerapp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pickerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pickerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

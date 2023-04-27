@@ -1,0 +1,10 @@
+{
+  "name": "pickerapp",
+  "displayName": "picker app",
+  "android": {
+    "package": "com.anonymous.com"
+  },
+  "ios": {
+    "bundleIdentifier": "com.anonymous.com"
+  }
+}
